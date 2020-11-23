@@ -1,5 +1,7 @@
 #include <Arduino.h>
 
+#define LED_RED 10
+
 void setup() {
   // put your setup code here, to run once:
   pinMode(LED_BUILTIN, OUTPUT);
